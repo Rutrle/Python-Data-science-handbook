@@ -23,3 +23,7 @@ print(C)
 # set type of numpy array:
 D = np.array([1, 2, 3, 4], dtype='float32')
 print(D)
+
+# multiple dimensions
+E = np.array([range(i, i+3) for i in [2, 4, 6]])
+print(E)
